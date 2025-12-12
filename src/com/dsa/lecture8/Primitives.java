@@ -10,6 +10,5 @@ public class Primitives {
         boolean check = true;
 
 
-
     }
 }

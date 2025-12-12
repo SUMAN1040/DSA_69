@@ -8,7 +8,7 @@ public class Temperatures {
 
         System.out.println("Please enter the temperature:");
         float tempC = input.nextFloat();
-        float tempF = tempC*(9/5)+32;
+        float tempF = tempC*((float) 9 /5)+32;
         System.out.println(tempF);
     }
 

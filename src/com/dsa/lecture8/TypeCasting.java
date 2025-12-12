@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class TypeCasting {
     public static void main(String[] args) {
-//        Scanner input = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 //        float num = input.nextFloat();
 //        float num2 = input.nextInt();
 //        System.out.println(num);
@@ -25,20 +25,20 @@ public class TypeCasting {
 //        byte auu = (byte)(au);
 //        System.out.println(auu);
 
+//
+//        byte ab = 40;
+//        byte bc = 50;
+//        byte ac = 100;
+//        int d = (ab*bc) / ac;
+//        System.out.println(d);
+//
+//        byte bb = 50;
+//        bb = (byte)(bb*2);
+//        System.out.println(bb);
+//
+//        int n = 'a';
+//        System.out.println(n);
 
-        byte ab = 40;
-        byte bc = 50;
-        byte ac = 100;
-        int d = (ab*bc) / ac;
-        System.out.println(d);
-
-        byte bb = 50;
-        bb = (byte)(bb*2);
-        System.out.println(bb);
-
-        int n = 'a';
-        System.out.println(n);
-
-        System.out.println("क");
+//        System.out.println("क");
     }
 }
