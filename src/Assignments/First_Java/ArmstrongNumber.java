@@ -1,10 +1,10 @@
-//To find Armstrong Number between two given number.
+//To find ArmstrongNumber Number between two given number.
 
 package Assignments.First_Java;
 
 import java.util.Scanner;
 
-public class Armstrong {
+public class ArmstrongNumber {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int num1 = in.nextInt();
