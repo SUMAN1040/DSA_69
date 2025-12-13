@@ -16,6 +16,7 @@ public class Neastedswitch {
                 System.out.println("Hello");
                 break;
             case 3:
+                System.out.println("Emp Number 3");
                 switch (department){
                     case "IT":
                         System.out.println("It");
@@ -26,6 +27,7 @@ public class Neastedswitch {
                     default:
                         System.out.println("enter right department");
                 }
+                break;
             default:
                 System.out.println("Suman");
         }
