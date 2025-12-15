@@ -14,7 +14,7 @@ public class ArmstrongNumber {
             int power = String.valueOf(Math.abs(i)).length();
             int temp = i;
             int sum = 0;
-
+            
             if (temp < 0) {
                 continue;
             }
@@ -23,7 +23,6 @@ public class ArmstrongNumber {
                 sum = sum + (int) Math.pow(rem, power);
                 temp = temp / 10;
             }
-
 
             if (sum == i) {
                 System.out.print(i + " ");
