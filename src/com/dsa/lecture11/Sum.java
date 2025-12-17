@@ -12,6 +12,11 @@ public class Sum {
         System.out.println(sum);
     }
 
+    static int sum(int a, int b) {
+        int sum = a + b;
+        return sum;
+    }
+
     //return type
     static int sum2() {
         Scanner in = new Scanner(System.in);
@@ -20,6 +25,7 @@ public class Sum {
         int sum = num1 + num2;
         return sum;
     }
+
     //main method
     public static void main(String[] args) {
         /*
@@ -28,8 +34,10 @@ public class Sum {
             return statement;
         }
         */
-        sum();
-        int ans = sum2();
-        System.out.println(ans);
+//        sum();
+//        int ans = sum2();
+//        System.out.println(ans);
+        int ans2 = sum(20, 23);
+        System.out.println(ans2);
     }
 }
