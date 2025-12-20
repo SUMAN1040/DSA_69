@@ -1,19 +1,23 @@
-//To find ArmstrongNumber Number between two given number.
-package Assignments.First_Java;
+//To find Armstrong Number between two given number.
+package Assignments.Functions.Previous.FirstJava;
 
 import java.util.Scanner;
 
-public class ArmstrongNumber {
+public class Armstrong {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        int num1 = in.nextInt();
-        int num2 = in.nextInt();
+        int number1 = in.nextInt();
+        int number2 = in.nextInt();
+        check(number1, number2);
+        in.close();
+    }
 
-        for (int i = num1; i <= num2; i++) {
+    static void check(int number1, int number2) {
+        for (int i = number1; i <= number2; i++) {
             int power = String.valueOf(Math.abs(i)).length();
             int temp = i;
             int sum = 0;
-            
+
             if (temp < 0) {
                 continue;
             }
@@ -22,11 +26,9 @@ public class ArmstrongNumber {
                 sum = sum + (int) Math.pow(rem, power);
                 temp = temp / 10;
             }
-
             if (sum == i) {
                 System.out.print(i + " ");
             }
         }
-        in.close();
     }
 }
