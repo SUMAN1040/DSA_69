@@ -9,7 +9,7 @@ public class MaX {
 
     //work in edge cases here, like array being null
     static int maxRange(int[] arr, int start, int end) {
-
+        //edge case
         if (end > start) {
             return -1;
         }
@@ -27,7 +27,7 @@ public class MaX {
 
     //imagine that arr is not empty
     static int max(int[] arr) {
-        if(arr.length == 0){
+        if (arr.length == 0) {
             return -1;
         }
         int max = arr[0];
