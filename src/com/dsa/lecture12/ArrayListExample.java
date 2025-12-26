@@ -7,7 +7,7 @@ public class ArrayListExample {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         //Syntax
-        ArrayList<Integer> list = new ArrayList<>(10);
+        ArrayList<Integer> list = new ArrayList<>(10); //
 //        list.add(53);
 //        list.add(23);
 //        list.add(12);

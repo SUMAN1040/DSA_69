@@ -14,4 +14,6 @@ public class PassingIinFunctions {
     static void change(int[] arr) {
         arr[0] = 99;
     }
+
+    //Strings are immutable in java but in case of arrays are mutable in java
 }

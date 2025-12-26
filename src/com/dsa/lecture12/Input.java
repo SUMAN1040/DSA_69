@@ -26,7 +26,7 @@ public class Input {
 //        }
 
 //        System.out.println(Arrays.toString(arr));
-
+//        output
 //        for (int i = 0; i < arr.length; i++) {
 //            System.out.print(arr[i] + " ");
 //        }
@@ -34,6 +34,9 @@ public class Input {
 //        for(int num: arr){   //for every element in array, print the element
 //            System.out.print(num); //here num represent the element of this array
 //        }
+
+
+
 
         //Array in objects
         String[] str = new String[4];

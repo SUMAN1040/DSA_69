@@ -13,7 +13,7 @@ public class Main {
 
         //syntax
         //datatype[] variable name = new datatype[size];
-        //strore 5 roll_no:
+        //store 5 roll_no:
 
         int[] rollNumber = new int[5];
         int[] roll = {23, 34, 454, 54, 33}; // data type represent what type of data store in this array
@@ -26,7 +26,7 @@ public class Main {
 //                    arr-> reference variable
 //                    new int[5]: creating the object in heap memory (runtime)
 //                      here new keyword use for create an objects
-//                        dynamic memory allocation: al the runtime memory will allocate
+//                        dynamic memory allocation: at the runtime memory will allocate
 //        1)array objects are in heap
 //        2)jls - java language specification-internal working on java
 //        3)heap objects are not continues--dynamic memory allocation

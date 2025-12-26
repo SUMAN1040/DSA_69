@@ -13,7 +13,7 @@ public class MultiDimension {
         System.out.println(arr.length);  // no of rows
 //        int[][] arr = {
 //                {1, 2, 3},  //0th index
-//                {4, 5, 6},  //1st index
+//                {4, 5},  //1st index
 //                {7, 8, 9}  //2nd index
 //        };
         // in case of c/cpp there continues memory allocation happened but in case of java there not mandatory to continues memory allocation
