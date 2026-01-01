@@ -33,7 +33,7 @@ public class Number_Guessing_Game {
                 System.out.println("The number is less than " + guess);
             }
         }
-K
+
         //If the user run out of attempt
         System.out.println("You've exhausted all attempts. The correct number was: " + number);
         in.close();
