@@ -19,8 +19,8 @@ public class OddEven {
     static void oddEven(int[] arr) {
         int evenCount = 0;
         int oddCount = 0;
-        for (int i = 0; i < arr.length; i++) {
-            if (arr[i] % 2 == 0) {
+        for (int j : arr) {
+            if (j % 2 == 0) {
                 evenCount++;
             } else {
                 oddCount++;
