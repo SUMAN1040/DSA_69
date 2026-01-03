@@ -20,7 +20,6 @@ public class Missing_Number {
 //        int missingSum = expectedSum - actualSum;
 //        System.out.println("Missing Number: " + missingSum);
 
-
         //Using XOR Method
         int[] arr = {1, 2, 3, 5};
         int n = arr.length + 1;
