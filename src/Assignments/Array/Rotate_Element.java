@@ -6,6 +6,9 @@ import java.util.Scanner;
 
 public class Rotate_Element {
     public static void main(String[] args) {
+
+        //Using suffix base rotation, Right Rotate(The complexity of this time: O(n) and the space: O(n)
+
 //        Scanner in = new Scanner(System.in);
 //        int n = in.nextInt();
 //        int[] arr = new int[n];
