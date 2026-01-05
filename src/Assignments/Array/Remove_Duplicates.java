@@ -10,6 +10,10 @@ public class Remove_Duplicates {
         int n = in.nextInt();
         int[] arr = new int[n];
 
+        for (int i = 0; i < n; i++) {
+            arr[i] = in.nextInt();
+        }
+
         int newLength = removeDuplicates(arr);
         System.out.println("The new length is " + newLength);
         System.out.println("Array after removing duplicates is: ");
