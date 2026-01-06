@@ -74,6 +74,7 @@ public class Union_Two_Arrays {
             printIfNotDuplicate(arr2, j);
             j++;
         }
+        in.close();
     }
 
     static void printIfNotDuplicate(int[] arr, int index) {
