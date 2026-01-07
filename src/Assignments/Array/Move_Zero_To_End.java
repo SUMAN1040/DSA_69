@@ -27,8 +27,8 @@ public class Move_Zero_To_End {
 //        moveZeroes(arr);
 
         //3d method using two pointer
-        Move_Zero_To_End move = new Move_Zero_To_End();
-        move.moveZeroes(arr);
+//        Move_Zero_To_End move = new Move_Zero_To_End();
+        moveZeroes(arr); //move.
 
         System.out.println(Arrays.toString(arr));
         in.close();
@@ -50,7 +50,7 @@ public class Move_Zero_To_End {
 
 
     //Using Two pointer technique
-    public void moveZeroes(int[] arr) {
+    static void moveZeroes(int[] arr) {
         int nonZeroIndex = 0;
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] != 0) {

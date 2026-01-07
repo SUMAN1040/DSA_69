@@ -73,7 +73,7 @@ public class Rotate_Element {
 
 
     //Right rotation
-    public static void rightRotate(int[] arr, int k) {
+    static void rightRotate(int[] arr, int k) {
         int n = arr.length;
         k = k % n;
 
@@ -82,7 +82,7 @@ public class Rotate_Element {
         reverse(arr, k, n - 1);
     }
 
-    private static void reverse(int[] arr, int start, int end) {
+    static void reverse(int[] arr, int start, int end) {
         while (start < end) {
             int temp = arr[start];
             arr[start] = arr[end];
@@ -91,5 +91,4 @@ public class Rotate_Element {
             end--;
         }
     }
-
 }

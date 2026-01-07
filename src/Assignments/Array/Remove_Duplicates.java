@@ -1,7 +1,6 @@
 //You are given a sorted array. Remove the duplicates in-place such that each element appears only once and return the new length of the array.
 package Assignments.Array;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class Remove_Duplicates {
@@ -22,7 +21,7 @@ public class Remove_Duplicates {
         }
     }
 
-    public static int removeDuplicates(int[] arr) {
+    static int removeDuplicates(int[] arr) {
         if (arr.length == 0) {
             return 0;
         }
