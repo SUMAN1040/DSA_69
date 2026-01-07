@@ -66,6 +66,7 @@ public class Union_Two_Arrays {
                 j++;
             }
         }
+
         while (i < arr1.length) {
             printIfNotDuplicate(arr1, i);
             i++;
