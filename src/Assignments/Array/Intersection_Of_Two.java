@@ -8,6 +8,7 @@ import java.util.Scanner;
 public class Intersection_Of_Two {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
+
         System.out.println("Enter 1st arrays length:");
         int n1 = in.nextInt();
         int[] arr1 = new int[n1];
