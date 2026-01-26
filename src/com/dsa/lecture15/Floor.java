@@ -18,7 +18,9 @@ public class Floor {
         System.out.println(floor(arr, target));
     }
 
+    //Return the index: Greatest number <= target
     static int floor(int[] arr, int target) {
+
         int start = 0;
         int end = arr.length - 1;
         while (start <= end) {
