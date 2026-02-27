@@ -3,7 +3,7 @@ package Assignments.Conditionals;
 
 import java.util.Scanner;
 
-public class SubtracttheProductandSumofDigitsInteger {
+public class SubtractProductSum {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int number = in.nextInt();
@@ -14,13 +14,11 @@ public class SubtracttheProductandSumofDigitsInteger {
 
         while (number != 0) {
             rem = number % 10;
-            number = number / 10;
             sum += rem;
             product *= rem;
+            number = number / 10;
         }
         int Subtract = product - sum;
         System.out.println(Subtract);
-
-
     }
 }

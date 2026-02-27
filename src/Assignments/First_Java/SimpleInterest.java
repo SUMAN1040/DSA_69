@@ -10,11 +10,11 @@ public class SimpleInterest {
         System.out.print("Enter the principal amount (p): ");
         int p = input.nextInt();
 
-        System.out.print("Enter the time in years (t): ");
-        int t = input.nextInt();
-
         System.out.print("Enter the rate of interest (r): ");
         int r = input.nextInt();
+
+        System.out.print("Enter the time in years (t): ");
+        int t = input.nextInt();
 
         int SimpleInterest = (p * r * t) / 100;
 
