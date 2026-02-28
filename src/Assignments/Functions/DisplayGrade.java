@@ -21,7 +21,7 @@ public class DisplayGrade {
 
     static void checkGrade(int number) {
         if (number < 0) {
-            System.out.println("Enter right number");
+            System.out.println("Enter right Marks");
         } else {
             if (number >= 91 && number <= 100) System.out.println("AA");
             else if (number >= 81 && number <= 90) System.out.println("AB");
@@ -30,7 +30,7 @@ public class DisplayGrade {
             else if (number >= 51 && number <= 60) System.out.println("CD");
             else if (number >= 41 && number <= 50) System.out.println("DD");
             else if (number <= 40) System.out.println("FAIL");
-            else System.out.println("Enter the right number");
+            else System.out.println("Enter the right Marks");
         }
     }
 }

@@ -26,11 +26,8 @@ Q: Why did you use a separate method?
 A: To improve code reusability, readability, and separation of concerns.
 
 Q: What is the time and space complexity?
-A:
-
-Time: O(1)
-
-Space: O(1)
+A:  Time: O(1)
+    Space: O(1)
 
 Q: Can this be optimized further?
 A: No, this is already optimal.

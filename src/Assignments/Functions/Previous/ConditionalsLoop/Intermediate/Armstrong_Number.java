@@ -36,9 +36,9 @@ public class Armstrong_Number {
             temp2 /= 10;
         }
         if (number1 == number) {
-            System.out.println("This is armstrong number");
+            System.out.println("This is Armstrong number");
         } else {
-            System.out.println("This is not a armstrong number");
+            System.out.println("This is not a Armstrong number");
         }
     }
 }
