@@ -9,6 +9,7 @@ public class Main {
         sort(arr);
         System.out.println(Arrays.toString(arr));
     }
+
     static void sort(int[] arr){
         int i = 0;
         while(i < arr.length){
