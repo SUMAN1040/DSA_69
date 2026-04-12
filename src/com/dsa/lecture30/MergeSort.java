@@ -19,37 +19,37 @@ public class MergeSort {
         return merge(left, right);
     }
 
-    private static int[] merge(int[] first, int[] second) {
-        int[] mix = new int[first.length + second.length];
-
-        int i = 0;
-        int j = 0;
-        int k = 0;
-
-        while (i < first.length && j < second.length) {
-            if (first[i] < second[j]) {
-                mix[k] = first[i];
-                i++;
-            } else {
-                mix[k] = second[j];
-                j++;
-            }
-            k++;
-        }
-        //It may be possible that one of the arrays is not complete
-        while (i < first.length) {
-            mix[k] = first[i];
-            i++;
-            k++;
-        }
-
-        while (j < second.length) {
-            mix[k] = second[i];
-            j++;
-            k++;
-        }
-        return mix;
-    }
+//    private static int[] merge(int[] first, int[] second) {
+//        int[] mix = new int[first.length + second.length];
+//
+//        int i = 0;
+//        int j = 0;
+//        int k = 0;
+//
+//        while (i < first.length && j < second.length) {
+//            if (first[i] < second[j]) {
+//                mix[k] = first[i];
+//                i++;
+//            } else {
+//                mix[k] = second[j];
+//                j++;
+//            }
+//            k++;
+//        }
+//        //It may be possible that one of the arrays is not complete
+//        while (i < first.length) {
+//            mix[k] = first[i];
+//            i++;
+//            k++;
+//        }
+//
+//        while (j < second.length) {
+//            mix[k] = second[i];
+//            j++;
+//            k++;
+//        }
+//        return mix;
+//    }
 
 
     static int[] mSInplace(int[] arr) {
