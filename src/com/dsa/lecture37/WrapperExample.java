@@ -13,6 +13,9 @@ public class WrapperExample {
         final A suman = new A("Bhai");
         suman.name = "Change";
 
+        A obj = new A("Suman");
+        System.out.println(obj);
+
     }
     static void swap(int a, int b) {
         int temp = a;
