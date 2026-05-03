@@ -24,9 +24,6 @@ public class Main {
 //        BoxWeight box6 = new Box(2, 3, 4);
 //        System.out.println(box6);
 
-
-
         BoxPrice box = new BoxPrice(5, 8, 200);
     }
-
 }
