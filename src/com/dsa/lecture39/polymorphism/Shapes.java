@@ -9,6 +9,4 @@ public class Shapes {
 //    void check(){
 //        System.out.println("Hey I am used from here");
 //    }
-
-
 }
