@@ -1,4 +1,4 @@
-package com.dsa.lecture40.access;
+package com.dsa.lecture40;
 
 public class ObjectDemo {
 

@@ -1,4 +1,4 @@
-package com.dsa.lecture40.access;
+package com.dsa.lecture40;
 
 import java.util.ArrayList;
 

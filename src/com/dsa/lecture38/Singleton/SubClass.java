@@ -1,6 +1,6 @@
 package com.dsa.lecture38.Singleton;
 
-import com.dsa.lecture40.access.A;
+import com.dsa.lecture40.A;
 
 public class SubClass extends A {
     public SubClass(int num, String name) {
