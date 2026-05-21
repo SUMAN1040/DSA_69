@@ -9,13 +9,12 @@ public class AverageNumbers {
 
         int number = in.nextInt();
         int sum = 0;
-        double avg = 0;
+
         for (int i = 1; i <= number; i++) {
             int n = in.nextInt();
             sum += n;
-
         }
-        avg = (double) sum / number;
+        double avg = (double) sum / number;
         System.out.println(avg);
     }
 }

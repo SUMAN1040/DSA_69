@@ -8,9 +8,9 @@ public class PerimeterParallelogram {
         Scanner in = new Scanner(System.in);
 
         float side = in.nextFloat();
-        float area = in.nextFloat();
+        float base = in.nextFloat();
 
-        double Perimeter = 2 * (side * area);
+        double Perimeter = 2 * (side * base);
 
         System.out.println(Perimeter);
 
