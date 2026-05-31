@@ -16,6 +16,7 @@ public class CgpaCalculator {
             double GradePoints = in.nextDouble();
             totalGradePoint += GradePoints;
         }
+
         double cgpa = totalGradePoint / subjects;
         System.out.println(cgpa);
         in.close();

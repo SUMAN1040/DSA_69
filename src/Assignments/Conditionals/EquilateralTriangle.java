@@ -9,7 +9,7 @@ public class EquilateralTriangle {
 
         float side = in.nextFloat();
 
-        double area = (Math.sqrt(3)/4) * Math.pow(side, 2);
+        double area = ((Math.sqrt(3))/4) * Math.pow(side, 2);
 
         System.out.println(area);
     }

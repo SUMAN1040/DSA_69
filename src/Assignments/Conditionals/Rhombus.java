@@ -1,7 +1,6 @@
 //Area Of Rhombus
 package Assignments.Conditionals;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Rhombus {
