@@ -6,38 +6,20 @@ import java.util.Scanner;
 public class MaximumMinimum {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
+
         int number1 = in.nextInt();
         int number2 = in.nextInt();
         int number3 = in.nextInt();
 
-        int MaxNumber = Maximum(number1, number2, number3);
-        int MinNumber = Minimum(number1, number2, number3);
-
-        System.out.println(MaxNumber);
-        System.out.println(MinNumber);
+        System.out.println("Maximum: " + Maximum(number1, number2, number3));
+        System.out.println("Minimum: " + Minimum(number1, number2, number3));
     }
 
     static int Maximum(int a, int b, int c) {
-        int max = 0;
-        if (a > b && a > c) {
-            max = a;
-        } else if (b > c && b > a) {
-            max = b;
-        } else {
-            max = c;
-        }
-        return max;
+        return Math.max(a, Math.max(b, c));
     }
 
     static int Minimum(int a, int b, int c) {
-        int min = 0;
-        if (a < b && a < c) {
-            min = a;
-        } else if (b < c && b < a) {
-            min = b;
-        } else {
-            min = c;
-        }
-        return min;
+        return Math.min(a, Math.min(b, c));
     }
 }
