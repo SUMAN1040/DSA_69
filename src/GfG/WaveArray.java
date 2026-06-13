@@ -1,7 +1,7 @@
 package GfG;
 
-class Solution {
-    public void sortInWave(int arr[]) {
-        // Your implementation here
-    }
-}
+//class Solution {
+//    public void sortInWave(int arr[]) {
+//        // Your implementation here
+//    }
+//}
