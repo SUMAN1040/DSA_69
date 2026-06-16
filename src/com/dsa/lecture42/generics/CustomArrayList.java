@@ -58,7 +58,6 @@ public class CustomArrayList {
 //        list.set(1, String.valueOf(1040));
 //        list.size();
 //        list.isEmpty();
-
         CustomArrayList list = new CustomArrayList();
         list.add(3);
         list.add(5);
